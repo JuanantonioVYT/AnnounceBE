@@ -1,0 +1,16 @@
+---
+name: Announcement
+author: JuanantonioVYT
+api:
+- 4.0.0
+version: "1.0"
+main: JuanantonioVYT\Announce\Main
+commands:
+  announce:
+    description: Announcement to players!
+    permission: announce.use
+permissions:
+  announce.use:
+    description: Permission to Announcement plugin!
+    default: op
+...
